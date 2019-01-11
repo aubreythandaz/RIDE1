@@ -1,0 +1,335 @@
+
+/* TRANSPARENT nav bar*/
+body{
+    background:url(images/img3.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    
+}
+ul li{
+    float: left;
+    background-color: black;
+    width:200px;
+    height: 100px;
+    opacity:0.5;
+    line-height:40px;
+    text-align: center;
+    font-size: 20px;
+
+}
+ul li a {
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+    z-index: 0;
+}
+ul li a:visited{
+    background-color: greenyellow;
+}
+ul li ul li {
+    display: none;
+    padding: 3%;
+
+}
+ul li:hover ul li{
+    display:block;
+}
+/*my other codes*/
+.button{
+    font-size: 25px;
+    text-decoration: none;
+    color: royalblue;
+    padding-top: 10px;
+}
+.footer{
+    background-color: rgb(248, 143, 4);
+    position: relative;
+    top: 60px;
+    text-align:center;
+    margin-top:200px;
+    padding: 20px;
+    margin-left: 0;
+}
+fieldset{
+    width:50%;
+}
+
+legend{
+    font-size: 50px;
+}
+table,tr,td,th{
+    text-align: center;
+}
+.txt{
+    color:bisque;
+    font-size: 25px;
+}
+.gallary{
+    padding: 
+}
+.sign{
+    color:greenyellow;
+}
+/*welcome.html*/
+.welcome_buttons{
+    position: relative;
+    top: 90px;
+    left:50px;
+
+}
+.btn{
+    background-color: transparent;
+    border:2px solid green;
+    border-radius: 5px;
+    font-size: 30px;
+    color: green;
+    width: 250px;
+    padding: 20px;
+}
+.btn:hover{
+    background-color: royalblue;
+    color:white;
+}
+.wel_head{
+    padding: 50px;
+    display: inline;
+    position: relative;
+    left: 1000px;
+    top: 0px;
+}
+.dwnldbtn{
+    border-color: antiquewhite;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-size:30px;
+    position: relative;
+    left:200px;
+    top:50px;
+}
+.welpic{
+    display: inline;
+    position: relative;
+    left:300px;
+    top:80px;
+    opacity: 0.8;
+    
+}
+.pic{
+    border-radius: 200px;
+}
+.sharecont{
+    position: absolute;
+    left: 1200px;
+    top: 390px;
+    
+}
+/*sign up*/
+input{
+    border: 1px solid;
+    border-color: gray;
+
+    width: 90%;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 15px;
+    
+}
+.loginform{
+    
+    color:black;
+    background-color:white;
+    width: 30%;
+    border-radius: 8px;
+    position: relative;
+    left: 800px;
+    top:0px;
+    padding: 20px;
+    padding-top:10px;
+    
+}
+input[type=button]{
+    color: royalblue;
+    background-color:transparent;
+    padding: 10px;
+}
+input[type=button]:hover{
+  color: green;
+  border-color: green;
+  border-radius: 10px;
+}
+.sp{
+    position: relative;
+    left: 1200px;
+}
+.bb{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+}
+.enjoy{
+    position: absolute;
+    top: 0px;
+    border-radius: 200px;
+}
+/*services*/
+.imgcapt{
+border-radius: 14px;
+opacity: 0.9;
+
+
+}
+.servtxt{
+    background-color: grey;
+    position: absolute;
+    left:510px;
+    top:110px;
+    opacity: 0.7;
+    width: 50%;
+}
+.rides{
+    background-color: gray;
+    opacity: 0.9;
+    width: 40%;
+    position: absolute;
+    top: 210px;
+    left: 250px;
+    text-align: center;
+    padding:40px;
+    border-radius: 15px;
+}
+.ridespic{
+    position: absolute;
+    top: 110px;
+    left: 900px;
+    width: 40%;
+    border-radius: 15px;
+    opacity: 0.7;
+    z-index: 0;
+}
+.gtrd{
+    position: absolute;
+    top: 300px;
+    left: 670px;
+    font-size: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color:purple;
+    opacity: 0.8;
+    padding:20px;
+    width: 35%;
+    
+}
+.prof{
+    position: relative;
+    
+}
+.txt hdr{
+   position: relative;
+   left:900px;
+}
+.tc{
+    width: 30%;
+    padding:20px;
+}
+.tc input[type="button"]{
+    position: relative;
+    color: white;
+    background-color: brown;
+    margin-top:10px;
+}
+.db{
+    background-color: gray;
+    width: 40%;
+    color: bisque;
+    text-decoration: none;
+    opacity: 0.8;
+    position: relative;
+    left:200px;
+}
+.lg{
+    position: relative;
+    left:200px;
+}
+.loginform input[type="button"]{
+    margin-top:20px;
+
+}
+.loginform input[type="button"]:hover{
+    background-color: green;
+    color:white;
+}
+.formlo{
+    position:relative;
+    left:300px;
+    top:100px;
+    background-color: rgba(100, 204, 245, 0.397);
+    width: 45%;
+    padding: 80px;
+    margin-left: 20px;
+    border-radius: 7px;
+    opacity: 0.9;
+
+    
+}
+.formlo input[type="button"]{
+    margin:10px;
+    color:goldenrod;
+    background-color: rgb(2, 43, 78);
+}
+.formlo input[type="button"]:hover{
+    color: white;
+    background-color: royalblue;
+    
+}
+.gallary{
+    background-color: black;
+    text-align: center;
+}
+.ridesprof{
+    position: relative;
+    top:200px;
+    left:280px;
+
+}
+.off .rides{
+    top:300px;
+    left: 10px;
+}
+a [input="button"][value="rides offered"]{
+    background-color: brown;
+}
+.fa{
+    position: relative;
+    top: 400px;
+    background-color: transparent;
+}
+.vr{
+    background-color: green;
+    width: 40%;
+    margin-top:2px;
+}
+.content{
+    background-color: rgb(11, 12, 12);
+    opacity:0.8;
+    text-align:justify;
+    width:50%;
+    position: relative;
+    border-radius: 5px;
+    top:150px;
+    left:300px;
+}
