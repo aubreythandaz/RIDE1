@@ -4,7 +4,7 @@
 Project Overview
 My Ride App is a carpooling application that provides drivers with the ability to create ride offers and passengers to join available ride offers.
 
-Features
+#Features
 Users can create an account and log in.
 Drivers can add ride offers..
 Passengers can view all available ride offers.
