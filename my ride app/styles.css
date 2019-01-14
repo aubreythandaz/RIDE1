@@ -313,11 +313,7 @@ opacity: 0.9;
 a [input="button"][value="rides offered"]{
     background-color: brown;
 }
-.fa{
-    position: relative;
-    top: 400px;
-    background-color: transparent;
-}
+
 .vr{
     background-color: green;
     width: 40%;
